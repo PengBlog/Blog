@@ -76,7 +76,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anatole
+#theme: anatole
+theme: maupassant
 
 math:
   engine: 'mathjax' # or 'katex'
