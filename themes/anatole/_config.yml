@@ -24,3 +24,9 @@ gitalk:
   owner: PengBlog
   admin: TechPeng
   distractionFreeMode: true
+  
+owner: PengBlog
+comment_repo: Blog
+labels: ["comment"]
+sitemap:
+  path: sitemap.xml
