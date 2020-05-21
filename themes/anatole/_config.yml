@@ -22,5 +22,5 @@ gitalk:
   clientSecret: bed21e3e3b943d399c500079fb54cfb7071080c9
   repo: Blog
   owner: TechPeng
-  admin: TechPeng
+  admin: [TechPeng]
   distractionFreeMode: true
