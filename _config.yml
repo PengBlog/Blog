@@ -85,3 +85,7 @@ archive_generator:
   yearly: false
   monthly: false
   daily: false
+
+
+sitemap:
+  path: sitemap.xml
