@@ -9,7 +9,7 @@ twitter:
 rss: 
 weibo: 
 instagram: 
-github: TechPeng
+github: PengBlog
 facebook: 
 
 # Comment
@@ -18,9 +18,9 @@ disqus:
 gentie: 
 gitalk:
   on: true
-  clientID: 0d3115e5df7249021a13
-  clientSecret: 44f32e5e299be7f1ced09cca9af26a6d26aa4d66
-  repo: blog
+  clientID: 3435888d2bd3cfe2c02f
+  clientSecret: bed21e3e3b943d399c500079fb54cfb7071080c9
+  repo: PengBlog
   owner: TechPeng
   admin: TechPeng
   distractionFreeMode: true
