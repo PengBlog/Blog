@@ -21,6 +21,6 @@ gitalk:
   clientID: 3435888d2bd3cfe2c02f
   clientSecret: bed21e3e3b943d399c500079fb54cfb7071080c9
   repo: Blog
-  owner: PengBlog
-  admin: [TechPeng]
+  owner: TechPeng
+  admin: TechPeng
   distractionFreeMode: true
