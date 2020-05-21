@@ -15,7 +15,7 @@ before_script:
 - git config --global user.email "techgeeker@outlook.com"
 - npm install -g hexo-cli
 - npm install hexo-deployer-git --save
-- export HEXO_DEPLOYER_REPO=https://$ACCESS_TOKEN@github.com/PengBlog/Blog.git
+- export HEXO_DEPLOYER_REPO=https://$AUTH_TOKEN@github.com/PengBlog/Blog.git
 script:
 - hexo clean
 - hexo generate
