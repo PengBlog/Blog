@@ -18,8 +18,8 @@ disqus:
 gentie: 
 gitalk:
   on: true
-  clientID: 3435888d2bd3cfe2c02f
-  clientSecret: bed21e3e3b943d399c500079fb54cfb7071080c9
+  clientID: 2bed45c2bd5ac82ade57
+  clientSecret: 66254b742fd1cfcd27878d0ad8ee07ee68458211
   repo: Blog
   owner: PengBlog
   admin: TechPeng
