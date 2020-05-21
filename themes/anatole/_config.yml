@@ -5,17 +5,17 @@ author: TechPeng,techgeeker@outlook.com
 avatar: /images/logo.png
 
 # Social Accounts
-twitter: 
-rss: 
-weibo: 
-instagram: 
+twitter:
+rss:
+weibo:
+instagram:
 github: PengBlog
-facebook: 
+facebook:
 
 # Comment
-duoshuo: 
-disqus: 
-gentie: 
+duoshuo:
+disqus:
+gentie:
 gitalk:
   on: true
   clientID: 3435888d2bd3cfe2c02f
@@ -23,11 +23,5 @@ gitalk:
   repo: Blog
   owner: PengBlog
   admin: TechPeng
+  label: 'comment'
   distractionFreeMode: true
-  
-comment_repo:
-  owner: PengBlog
-  repo: Blog
-  client_id: 3435888d2bd3cfe2c02f
-  client_secret: bed21e3e3b943d399c500079fb54cfb7071080c9
-  label: 'Gitalk'
