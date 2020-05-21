@@ -79,9 +79,9 @@ socials:
   - title: E-Mail
     url: mailto:techgeeker@outlook.com
     icon: fa-envelope
-  - title: RSS
-    url: atom.xml
-    icon: fa-rss
+#   - title: RSS
+#     url: atom.xml
+#     icon: fa-rss
 
 wechat_official_account: ''
 
