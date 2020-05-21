@@ -1,19 +1,21 @@
 language: node_js
-node_js: 10
-branches:
-  only:
-  - master
+sudo: true
 cache:
   directories:
   - node_modules
-before_install:
+install:
+- nvm install 8.4.0
+- nvm use 8.4.0
+- node --version
+- npm install -g npm@5.3.0
+- npm install -g hexo-cli
+- npm install
+before_script:
 - git config --global user.name "TechPeng"
 - git config --global user.email "techgeeker@outlook.com"
 - npm install -g hexo-cli
 - npm install hexo-deployer-git --save
-- export HEXO_DEPLOYER_REPO=https://$GH_TOKEN@github.com/PengBlog/Blog.git
-install:
-- npm i
+- export HEXO_DEPLOYER_REPO=https://$ACCESS_TOKEN@github.com/PengBlog/Blog.git
 script:
 - hexo clean
 - hexo generate
