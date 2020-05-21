@@ -25,8 +25,9 @@ gitalk:
   admin: TechPeng
   distractionFreeMode: true
   
-owner: PengBlog
-comment_repo: Blog
-labels: ["comment"]
-sitemap:
-  path: sitemap.xml
+comment_repo:
+  owner: PengBlog
+  repo: Blog
+  client_id: 3435888d2bd3cfe2c02f
+  client_secret: bed21e3e3b943d399c500079fb54cfb7071080c9
+  label: 'Gitalk'
