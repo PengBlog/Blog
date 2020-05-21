@@ -5,9 +5,9 @@
 # Site
 title: Peng Blog
 subtitle: Peng's blog
-description:
+description: ersonal Technical Blog
 author: TechPeng
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -16,6 +16,10 @@ url: https://blog.hometosoton.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+owner: PengBlog
+comment_repo: Blog
+labels: ["comment"]
 
 # Directory
 source_dir: source
@@ -34,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -72,7 +76,19 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anatole
+theme: maupassant
+
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,12 +96,22 @@ deploy:
   type: git
   branch: gh-pages
 
-archive_generator:
-  per_page: 0
-  yearly: false
-  monthly: false
-  daily: false
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
 
 sitemap:
   path: sitemap.xml
