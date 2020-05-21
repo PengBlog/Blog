@@ -11,6 +11,7 @@ before_install:
 - git config --global user.email "techgeeker@outlook.com"
 - npm install -g hexo-cli
 - npm install hexo-deployer-git --save
+- npm install --save hexo-render-pug hexo-generator-archive hexo-generator-tag hexo-generator-index hexo-generator-category
 - export HEXO_DEPLOYER_REPO=https://$GH_TOKEN@github.com/PengBlog/Blog.git
 install:
 - npm i
