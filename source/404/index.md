@@ -47,7 +47,7 @@ permalink: /404
 				backgroundColor: 0xffffff,
 				parent: 'game',
 				statusBarAlign: 'center',
-				credit: 'kimiye'
+				credit: 'TechPeng'
 			});
 		</script>
 
