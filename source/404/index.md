@@ -27,7 +27,7 @@ permalink: /404
 		</style>
 
 		<style>
-			#clock{font-family: 'Share Tech Mono', monospace;color: #ffffff;text-align: center;position: absolute;left: 50%;top: 80%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);color: #0f3362;text-shadow: 0 0 20px #bad9fb, 0 0 20px rgba(10, 175, 230, 0);}
+			#clock{font-family: 'Share Tech Mono', monospace;color: #ffffff;text-align: center;position: absolute;left: 50%;top: 80%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);color: #0f3362;text-shadow: 0 0 20px #bad9fb, 0 0 20px rgba(186, 217, 251, 0);}
 			#clock .time{letter-spacing: 0.05em;font-size:30px;}
 			#clock .date{letter-spacing:0.1em;font-size:30px;}
 			#clock .text{letter-spacing: 0.1em;font-size:12px;}
@@ -54,7 +54,7 @@ permalink: /404
 		<div id="clock">
     <p class="time">{{ time }}</p>
     <p class="text">{{ date }}</p>
-		<p class="text">{<a href="https://blog.hometosoton.tk">返回</a>}</p>
+		<p class="text"><a href="https://blog.hometosoton.tk">返回</a></p>
 		</div>
 
 		<script>
