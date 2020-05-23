@@ -86,7 +86,7 @@ socials:
 wechat_official_account: ''
 
 leancloud:
-  enable: false
+  enable: true
   appid: kFdleVOdhiUNIqljgwjVrd6s-MdYXbMMI
   appkey: ybxlmPNwptmhPzNbLABMcYhj
 
