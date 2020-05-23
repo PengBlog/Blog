@@ -74,7 +74,7 @@ if page.mathjax2 || theme.mathjax2
   include mathjax2
 
 if theme.leancloud.enable == true
-  script(src='https://cdn.jsdelivr.net/npm/leancloud-storage@4.5.3/dist/av-core-min.js')
+  script(src='https://cdn.jsdelivr.net/npm/leancloud-storage@4.5.3/dist/av-min.js')
   script.
     AV.initialize('#{theme.leancloud.appid}', '#{theme.leancloud.appkey}');
   script(type='text/javascript', src=url_for(theme.js)+'/leancloud.js?='+theme.version)
