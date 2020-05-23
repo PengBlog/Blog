@@ -86,9 +86,9 @@ socials:
 wechat_official_account: ''
 
 leancloud:
-  - enable: true
-    appid: kFdleVOdhiUNIqljgwjVrd6s-MdYXbMMI
-    appkey: ybxlmPNwptmhPzNbLABMcYhj
+  enable: false
+  appid: kFdleVOdhiUNIqljgwjVrd6s-MdYXbMMI
+  appkey: ybxlmPNwptmhPzNbLABMcYhj
 
 links:
 #  - title: An's blog
