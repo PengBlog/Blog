@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello Blog]]></title>
+    <url>%2F2020%2F05%2F21%2FHelloBlog%2F</url>
+    <content type="text"><![CDATA[Say Hello to my blog]]></content>
+      <tags>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+</search>
